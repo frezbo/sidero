@@ -29,17 +29,16 @@ require (
 	github.com/talos-systems/go-smbios v0.0.0-20210422124317-d3a32bea731a
 	github.com/talos-systems/net v0.3.0
 	github.com/talos-systems/talos/pkg/machinery v0.11.5
-	golang.org/x/crypto v0.0.0-20201124201722-c8d3bf9c5392 // indirect
 	golang.org/x/net v0.0.0-20210525063256-abc453219eb5
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	golang.org/x/sys v0.0.0-20210616094352-59db8d763f22
 	google.golang.org/grpc v1.40.0
 	google.golang.org/protobuf v1.27.1
-	k8s.io/api v0.17.9
+	k8s.io/api v0.22.4
 	k8s.io/apiextensions-apiserver v0.17.9
-	k8s.io/apimachinery v0.17.9
-	k8s.io/client-go v0.17.9
-	k8s.io/utils v0.0.0-20201110183641-67b214c5f920
+	k8s.io/apimachinery v0.22.4
+	k8s.io/client-go v0.22.4
+	k8s.io/utils v0.0.0-20210819203725-bdf08cb9a70a
 	sigs.k8s.io/cluster-api v0.3.20
 	sigs.k8s.io/controller-runtime v0.5.14
 )
