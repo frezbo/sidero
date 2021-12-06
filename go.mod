@@ -21,19 +21,20 @@ require (
 	github.com/stretchr/testify v1.7.0
 	github.com/talos-systems/cluster-api-bootstrap-provider-talos v0.2.0
 	github.com/talos-systems/cluster-api-control-plane-provider-talos v0.1.1
-	github.com/talos-systems/go-blockdevice v0.2.3
+	github.com/talos-systems/go-blockdevice v0.2.4
 	github.com/talos-systems/go-debug v0.2.1
 	github.com/talos-systems/go-kmsg v0.1.1
 	github.com/talos-systems/go-procfs v0.0.0-20210108152626-8cbc42d3dc24
 	github.com/talos-systems/go-retry v0.3.1
 	github.com/talos-systems/go-smbios v0.0.0-20210422124317-d3a32bea731a
-	github.com/talos-systems/net v0.3.0
-	github.com/talos-systems/talos/pkg/machinery v0.11.5
+	github.com/talos-systems/net v0.3.1-0.20211112122313-0abe5bdae8f8
+	github.com/talos-systems/talos/pkg/machinery v0.13.4
 	golang.org/x/crypto v0.0.0-20201124201722-c8d3bf9c5392 // indirect
+	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616 // indirect
 	golang.org/x/net v0.0.0-20210525063256-abc453219eb5
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210616094352-59db8d763f22
-	google.golang.org/grpc v1.40.0
+	golang.org/x/sys v0.0.0-20210927094055-39ccf1dd6fa6
+	google.golang.org/grpc v1.41.0
 	google.golang.org/protobuf v1.27.1
 	k8s.io/api v0.17.9
 	k8s.io/apiextensions-apiserver v0.17.9
