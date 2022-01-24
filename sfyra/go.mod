@@ -20,6 +20,9 @@ replace (
 )
 
 require (
+	github.com/aws/aws-sdk-go v1.38.66 // indirect
+	github.com/google/gofuzz v1.2.0 // indirect
+	github.com/mdlayher/raw v0.0.0-20210412142147-51b895745faf // indirect
 	github.com/spf13/cobra v1.2.1
 	github.com/stretchr/testify v1.7.0
 	github.com/talos-systems/cluster-api-bootstrap-provider-talos v0.2.0
@@ -28,16 +31,16 @@ require (
 	github.com/talos-systems/go-loadbalancer v0.1.1
 	github.com/talos-systems/go-procfs v0.1.0
 	github.com/talos-systems/go-retry v0.3.1
-	github.com/talos-systems/net v0.3.0
+	github.com/talos-systems/net v0.3.1
 	github.com/talos-systems/sidero v0.0.0-00010101000000-000000000000
-	github.com/talos-systems/talos v0.11.5
-	github.com/talos-systems/talos/pkg/machinery v0.11.5
-	google.golang.org/grpc v1.40.0
+	github.com/talos-systems/talos v0.14.1
+	github.com/talos-systems/talos/pkg/machinery v0.14.1
+	google.golang.org/grpc v1.42.0
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
-	k8s.io/api v0.21.3
+	k8s.io/api v0.23.1
 	k8s.io/apiextensions-apiserver v0.18.6
-	k8s.io/apimachinery v0.21.3
-	k8s.io/client-go v0.21.3
+	k8s.io/apimachinery v0.23.1
+	k8s.io/client-go v0.23.1
 	sigs.k8s.io/cluster-api v0.3.20
 	sigs.k8s.io/controller-runtime v0.6.3
 )
