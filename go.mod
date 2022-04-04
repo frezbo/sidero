@@ -8,7 +8,7 @@ replace (
 )
 
 require (
-	github.com/evanphx/json-patch v4.11.0+incompatible
+	github.com/evanphx/json-patch v5.6.0+incompatible
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-logr/logr v0.4.0
 	github.com/go-logr/zapr v0.2.0 // indirect
@@ -21,19 +21,20 @@ require (
 	github.com/stretchr/testify v1.7.0
 	github.com/talos-systems/cluster-api-bootstrap-provider-talos v0.2.0
 	github.com/talos-systems/cluster-api-control-plane-provider-talos v0.1.1
-	github.com/talos-systems/go-blockdevice v0.2.3
+	github.com/talos-systems/go-blockdevice v0.3.1
 	github.com/talos-systems/go-debug v0.2.1
 	github.com/talos-systems/go-kmsg v0.1.1
 	github.com/talos-systems/go-procfs v0.0.0-20210108152626-8cbc42d3dc24
 	github.com/talos-systems/go-retry v0.3.1
 	github.com/talos-systems/go-smbios v0.0.0-20210422124317-d3a32bea731a
-	github.com/talos-systems/net v0.3.0
-	github.com/talos-systems/talos/pkg/machinery v0.11.5
+	github.com/talos-systems/net v0.3.2
+	github.com/talos-systems/talos/pkg/machinery v1.0.0
 	golang.org/x/crypto v0.0.0-20201124201722-c8d3bf9c5392 // indirect
-	golang.org/x/net v0.0.0-20210525063256-abc453219eb5
+	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616 // indirect
+	golang.org/x/net v0.0.0-20220127200216-cd36cc0744dd
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210616094352-59db8d763f22
-	google.golang.org/grpc v1.40.0
+	golang.org/x/sys v0.0.0-20220209214540-3681064d5158
+	google.golang.org/grpc v1.44.0
 	google.golang.org/protobuf v1.27.1
 	k8s.io/api v0.17.9
 	k8s.io/apiextensions-apiserver v0.17.9
